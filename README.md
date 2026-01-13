@@ -1,10 +1,4 @@
-All good — here it is **cleaned up, complete, and properly formatted** as a production-ready `README.md`.
-You can copy-paste this directly into `README.md` and commit.
-
----
-
-```md
-# Digital Wallet 💳
+# Digital Wallet
 
 A backend service for a digital wallet application built with Node.js, MySQL, and Knex.  
 It provides a solid foundation for wallet management, user authentication, and transaction handling.
@@ -13,7 +7,7 @@ This project is designed for fintech-style applications such as digital wallets,
 
 ---
 
-## 🚀 Features
+## Features
 
 - User authentication (OAuth / email-based)
 - Wallet creation and balance management
@@ -25,14 +19,14 @@ This project is designed for fintech-style applications such as digital wallets,
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Node.js**
 - **Express.js**
 - **TypeScript**
 - **MySQL**
 - **Knex.js (Query Builder / ORM)**
-- **OAuth (Google)**
+
 - **JWT Authentication**
 - **dotenv**
 
