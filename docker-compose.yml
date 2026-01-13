@@ -25,11 +25,7 @@ services:
       - .env
     ports:
       - "5000:5000"
-    command: >
-      sh -c "npx knex migrate:latest --knexfile ./knexfile.ts && node dist/server.js"
-    volumes:
-      - .:/app
-      - /app/node_modules
+   
 
 volumes:
   db_data:

@@ -4,12 +4,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.ts",
+    "build": "tsc",
     "dev": "nodemon src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "knex": "node -r ts-node/register ./node_modules/knex/bin/cli.js --knexfile ./src/config/knexfile.ts",
-    "migrate:make": "npm run knex migrate:make",
-    "migrate:latest": "npm run knex migrate:latest",
-    "migrate:rollback": "npm run knex migrate:rollback"
+    "migrate:make": "npx knex migrate:make",
+    "migrate:latest": "npx knex migrate:latest",
+    "migrate:rollback": "npx knex migrate:rollback"
   },
   "keywords": [],
   "author": "",

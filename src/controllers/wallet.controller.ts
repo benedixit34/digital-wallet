@@ -28,7 +28,7 @@ export class WalletController {
     static async getWallet(req: Request, res: Response): Promise<void>{
         const user = req.user as User
         const wallet = WalletService.getWallet(user.id, "NGN")
-        this.WalletResponse(res, wallet)
+        this.WalletResponse( res, wallet)
     }
    
 }
